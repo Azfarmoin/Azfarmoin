@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 300" width="1000" height="300" role="img" aria-label="System monitor panel: 13 public repositories (snapshot 2026-10-14), pinned repository attendancex in JavaScript, contribution activity available live on GitHub.">
+  <title>System monitor (static snapshot)</title>
+  <style>.t{font-family:'Arial Black',Impact,Arial,sans-serif;font-weight:900}.m{font-family:'Courier New',Consolas,monospace;font-weight:700}
+  @keyframes blink{0%,49%{opacity:1}50%,100%{opacity:0}}.c{animation:blink 1s steps(1) infinite}</style>
+  <rect x="14" y="14" width="972" height="272" fill="#4263FF"/>
+  <rect x="4" y="4" width="972" height="272" fill="#08090D" stroke="#F2F4FA" stroke-width="4"/>
+  <rect x="4" y="4" width="972" height="46" fill="#F2F4FA"/>
+  <text x="26" y="36" class="t" font-size="22" fill="#08090D" letter-spacing="2">SYS.MONITOR // AZFARMOIN</text>
+  <text x="954" y="36" class="m" font-size="16" fill="#08090D" text-anchor="end">SNAPSHOT 2026-10-14</text>
+  <g class="m" font-size="24" fill="#F2F4FA">
+    <text x="30" y="106">PUBLIC REPOS</text><text x="330" y="106" fill="#6E90FF">........</text><text x="520" y="106" fill="#fff">13</text>
+    <text x="30" y="152">PINNED</text><text x="330" y="152" fill="#6E90FF">........</text><text x="520" y="152" fill="#fff">ATTENDANCEX / JAVASCRIPT</text>
+    <text x="30" y="198">CONTRIBUTIONS</text><text x="330" y="198" fill="#6E90FF">........</text><text x="520" y="198" fill="#fff">LIVE ON GITHUB</text>
+    <text x="30" y="244">STATUS</text><text x="330" y="244" fill="#6E90FF">........</text><text x="520" y="244" fill="#fff">BUILDING IN PUBLIC</text>
+  </g>
+  <rect class="c" x="940" y="224" width="16" height="28" fill="#6E90FF"/>
+</svg>

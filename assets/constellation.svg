@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 920" width="1000" height="920" role="img" aria-label="Technology atlas with six disciplines: 01 Interface, 02 Application Logic, 03 Data Systems, 04 Creative Computing, 05 Engineering Tools, 06 Programming Foundations.">
+  <title>The Engineering Constellation</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#08090D"/><stop offset="1" stop-color="#101321"/></linearGradient>
+    <radialGradient id="hub" cx="35%" cy="30%" r="75%"><stop offset="0" stop-color="#EAF0FF"/><stop offset=".45" stop-color="#4263FF"/><stop offset="1" stop-color="#16227A"/></radialGradient>
+    <radialGradient id="hubUv" cx="35%" cy="30%" r="75%"><stop offset="0" stop-color="#EFE6FF"/><stop offset=".45" stop-color="#8B5CF6"/><stop offset="1" stop-color="#34188A"/></radialGradient>
+    <filter id="soft" x="-50%" y="-50%" width="200%" height="220%"><feDropShadow dx="0" dy="10" stdDeviation="8" flood-color="#000" flood-opacity=".5"/></filter>
+    <pattern id="grid" width="50" height="50" patternUnits="userSpaceOnUse"><path d="M50 0H0V50" fill="none" stroke="#fff" stroke-opacity=".05"/></pattern>
+  </defs>
+  <style>
+    .t { font-family: 'Arial Black', Impact, Arial, sans-serif; font-weight: 900; }
+    .m { font-family: 'Courier New', Consolas, monospace; font-weight: 700; }
+    @keyframes pulse { 0%,100% { opacity: .5; } 50% { opacity: 1; } }
+    .p { animation: pulse 4s ease-in-out infinite; }
+  </style>
+  <rect width="1000" height="920" fill="url(#bg)"/>
+  <rect width="1000" height="920" fill="url(#grid)"/>
+
+  <!-- header -->
+  <text x="40" y="52" class="m" font-size="22" fill="#fff" letter-spacing="3">03 / ARCHITECTURE</text>
+  <text x="960" y="52" class="m" font-size="18" fill="#B7CAFF" fill-opacity=".7" text-anchor="end">ATLAS, SHEET 1 OF 1</text>
+
+  <!-- cross links between clusters -->
+  <g stroke="#6E90FF" stroke-width="2" fill="none">
+    <line x1="250" y1="200" x2="750" y2="200"/>
+    <line x1="750" y1="200" x2="750" y2="650"/>
+    <line x1="250" y1="200" x2="250" y2="650"/>
+  </g>
+  <g stroke="#B7CAFF" stroke-opacity=".5" stroke-width="1.5" stroke-dasharray="6 8">
+    <line x1="500" y1="450" x2="250" y2="200"/><line x1="500" y1="450" x2="750" y2="200"/>
+    <line x1="500" y1="450" x2="750" y2="650"/><line x1="500" y1="450" x2="250" y2="650"/>
+  </g>
+  <g class="m" font-size="18" fill="#B7CAFF" letter-spacing="2" text-anchor="middle">
+    <text x="500" y="190">REST</text>
+    <text x="790" y="430" text-anchor="start">PERSIST</text>
+    <text x="210" y="430" text-anchor="end">MOTION</text>
+  </g>
+
+  <!-- member links -->
+  <g stroke="#B7CAFF" stroke-opacity=".45" stroke-width="1.2">
+    <line x1="250" y1="200" x2="70" y2="90"/><line x1="250" y1="200" x2="330" y2="70"/>
+    <line x1="250" y1="200" x2="60" y2="330"/><line x1="250" y1="200" x2="330" y2="330"/>
+    <line x1="750" y1="200" x2="590" y2="150"/><line x1="750" y1="200" x2="880" y2="110"/>
+    <line x1="750" y1="650" x2="640" y2="540"/><line x1="750" y1="650" x2="880" y2="550"/>
+    <line x1="250" y1="650" x2="120" y2="540"/><line x1="250" y1="650" x2="380" y2="550"/>
+    <line x1="500" y1="450" x2="420" y2="380"/><line x1="500" y1="450" x2="600" y2="340"/><line x1="500" y1="450" x2="500" y2="570"/>
+  </g>
+
+  <!-- hubs -->
+  <g filter="url(#soft)">
+    <circle cx="250" cy="200" r="36" fill="url(#hub)"/>
+    <circle cx="750" cy="200" r="36" fill="url(#hub)"/>
+    <circle cx="750" cy="650" r="36" fill="url(#hubUv)"/>
+    <circle cx="250" cy="650" r="36" fill="url(#hubUv)"/>
+    <circle cx="500" cy="450" r="40" fill="url(#hub)"/>
+  </g>
+  <g class="t" font-size="22" fill="#08090D" text-anchor="middle">
+    <text x="250" y="208">01</text><text x="750" y="208">02</text><text x="750" y="658">03</text><text x="250" y="658">04</text><text x="500" y="458">05</text>
+  </g>
+
+  <!-- cluster titles -->
+  <g text-anchor="middle">
+    <text x="250" y="262" class="t" font-size="24" fill="#fff">INTERFACE</text><text x="250" y="288" class="m" font-size="18" fill="#B7CAFF">UI + INTERACTION</text>
+    <text x="750" y="262" class="t" font-size="24" fill="#fff">APPLICATION LOGIC</text><text x="750" y="288" class="m" font-size="18" fill="#B7CAFF">APIs + SERVER</text>
+    <text x="750" y="712" class="t" font-size="24" fill="#fff">DATA SYSTEMS</text><text x="750" y="738" class="m" font-size="18" fill="#B7CAFF">PERSISTENCE + QUERYING</text>
+    <text x="250" y="712" class="t" font-size="24" fill="#fff">CREATIVE COMPUTING</text><text x="250" y="738" class="m" font-size="18" fill="#B7CAFF">MOTION + 3D</text>
+    <text x="500" y="512" class="t" font-size="24" fill="#fff">ENGINEERING TOOLS</text>
+  </g>
+
+  <!-- member nodes -->
+  <g fill="#fff"><circle class="p" cx="70" cy="90" r="7"/><circle class="p" cx="330" cy="70" r="7"/><circle class="p" cx="60" cy="330" r="7"/><circle class="p" cx="330" cy="330" r="7"/>
+    <circle class="p" cx="590" cy="150" r="7"/><circle class="p" cx="880" cy="110" r="7"/><circle class="p" cx="640" cy="540" r="7"/><circle class="p" cx="880" cy="550" r="7"/>
+    <circle class="p" cx="120" cy="540" r="7"/><circle class="p" cx="380" cy="550" r="7"/><circle class="p" cx="420" cy="380" r="7"/><circle class="p" cx="600" cy="340" r="7"/><circle class="p" cx="500" cy="570" r="7"/></g>
+  <g class="m" font-size="24" fill="#fff">
+    <text x="86" y="98">React</text><text x="346" y="78">JavaScript</text><text x="76" y="338">Tailwind CSS</text><text x="346" y="338">Bootstrap</text>
+    <text x="606" y="158">Node.js</text><text x="866" y="118" text-anchor="end">Express.js</text>
+    <text x="656" y="548">MongoDB</text><text x="866" y="558" text-anchor="end">MySQL</text>
+    <text x="136" y="548">GSAP</text><text x="396" y="558">Three.js</text>
+    <text x="406" y="388" text-anchor="end">Git</text><text x="616" y="348">GitHub</text><text x="500" y="606" text-anchor="middle">Postman</text>
+  </g>
+
+  <!-- foundations strip -->
+  <rect x="64" y="804" width="876" height="64" fill="#8B5CF6" fill-opacity=".55"/>
+  <rect x="56" y="796" width="876" height="64" fill="#F2F4FA" stroke="#08090D" stroke-width="5"/>
+  <text x="80" y="838" class="t" font-size="20" fill="#08090D">06 PROGRAMMING FOUNDATIONS</text>
+  <text x="912" y="838" class="m" font-size="26" fill="#08090D" text-anchor="end">C  ·  C++  ·  JAVA</text>
+
+  <text x="40" y="900" class="m" font-size="16" fill="#B7CAFF" fill-opacity=".75">LINES SHOW HOW THE TOOLS RELATE IN PRACTICE. THEY ARE NOT SKILL RATINGS.</text>
+</svg>

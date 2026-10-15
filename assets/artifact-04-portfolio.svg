@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img" aria-label="Conceptual artwork for the portfolio: three offset translucent window planes forming a layered depth stack.">
+  <title>Artifact 04: Portfolio (conceptual artwork)</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#08090D"/><stop offset="1" stop-color="#101321"/></linearGradient>
+    <linearGradient id="p1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8B5CF6" stop-opacity=".55"/><stop offset="1" stop-color="#34188A" stop-opacity=".35"/></linearGradient>
+    <linearGradient id="p2" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#4263FF" stop-opacity=".7"/><stop offset="1" stop-color="#16227A" stop-opacity=".45"/></linearGradient>
+    <linearGradient id="p3" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".22"/><stop offset="1" stop-color="#9DB8FF" stop-opacity=".08"/></linearGradient>
+    <radialGradient id="dot" cx="35%" cy="30%" r="75%"><stop offset="0" stop-color="#EAF0FF"/><stop offset=".5" stop-color="#4263FF"/><stop offset="1" stop-color="#16227A"/></radialGradient>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="170%"><feDropShadow dx="0" dy="14" stdDeviation="12" flood-color="#000" flood-opacity=".55"/></filter>
+  </defs>
+  <style>.t{font-family:'Arial Black',Impact,Arial,sans-serif;font-weight:900}.m{font-family:'Courier New',Consolas,monospace;font-weight:700}
+  @keyframes a{0%,100%{transform:translate(0,0)}50%{transform:translate(-14px,8px)}}@keyframes b{0%,100%{transform:translate(0,0)}50%{transform:translate(18px,-10px)}}
+  .pa{animation:a 10s ease-in-out infinite}.pb{animation:b 7s ease-in-out infinite}</style>
+  <rect width="900" height="520" fill="url(#bg)"/>
+  <g class="pa" filter="url(#soft)"><rect x="380" y="70" width="400" height="270" rx="18" fill="url(#p1)" stroke="#A98CFF" stroke-opacity=".7"/></g>
+  <g filter="url(#soft)"><rect x="440" y="120" width="400" height="270" rx="18" fill="url(#p2)" stroke="#9DB8FF" stroke-opacity=".8"/>
+    <line x1="440" y1="162" x2="840" y2="162" stroke="#fff" stroke-opacity=".3"/>
+    <circle cx="466" cy="141" r="6" fill="#fff" fill-opacity=".7"/><circle cx="488" cy="141" r="6" fill="#fff" fill-opacity=".5"/><circle cx="510" cy="141" r="6" fill="#fff" fill-opacity=".3"/>
+    <rect x="470" y="190" width="170" height="14" rx="7" fill="#fff" fill-opacity=".5"/><rect x="470" y="218" width="260" height="10" rx="5" fill="#fff" fill-opacity=".25"/>
+    <rect x="470" y="240" width="220" height="10" rx="5" fill="#fff" fill-opacity=".25"/></g>
+  <g class="pb" filter="url(#soft)"><rect x="500" y="200" width="360" height="250" rx="18" fill="url(#p3)" stroke="#fff" stroke-opacity=".6"/>
+    <circle cx="700" cy="325" r="44" fill="url(#dot)"/></g>
+  <text x="36" y="230" class="t" font-size="190" fill="none" stroke="#8B5CF6" stroke-opacity=".6" stroke-width="2.5">04</text>
+  <g class="m" fill="#B7CAFF" letter-spacing="2">
+    <text x="40" y="52" font-size="18" fill="#fff">ARTIFACT 04</text>
+    <text x="40" y="420" font-size="22" fill="#fff">PORTFOLIO</text>
+    <text x="40" y="450" font-size="16" fill-opacity=".8">DEVELOPER SITE</text>
+    <text x="40" y="490" font-size="13" fill-opacity=".55">CONCEPTUAL ARTWORK. NOT A SCREENSHOT.</text>
+  </g>
+</svg>

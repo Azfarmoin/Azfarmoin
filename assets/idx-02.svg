@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 360" width="360" height="360" role="img" aria-label="Section index 02">
+  <title>02</title>
+  <style>.t { font-family: 'Arial Black', Impact, Arial, sans-serif; font-weight: 900; } .m { font-family: 'Courier New', Consolas, monospace; font-weight: 700; }</style>
+  <rect x="20" y="20" width="320" height="320" fill="#4263FF"/>
+  <rect x="8" y="8" width="320" height="320" fill="#F2F4FA" stroke="#08090D" stroke-width="6"/>
+  <text x="170" y="236" text-anchor="middle" class="t" font-size="210" fill="#4263FF" transform="translate(8 8)">02</text>
+  <text x="170" y="236" text-anchor="middle" class="t" font-size="210" fill="#08090D" stroke="#08090D" stroke-width="3">02</text>
+  <rect x="8" y="274" width="320" height="54" fill="#08090D"/>
+  <text x="28" y="308" class="m" font-size="20" fill="#F2F4FA" letter-spacing="4">IDENTITY / MANIFESTO</text>
+</svg>

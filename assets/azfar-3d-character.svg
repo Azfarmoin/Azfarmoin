@@ -1,0 +1,135 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 900" width="600" height="900" role="img" aria-label="Original stylized 3D-style character: a young man with a swept dark quiff in a black technical jacket and cargo trousers, relaxed three-quarter pose, cobalt and ultraviolet rim light.">
+<title>Azfar 3D character (original fictional persona, not a real likeness)</title>
+<defs>
+  <linearGradient id="skin" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#E6B38A"/><stop offset=".55" stop-color="#C58A62"/><stop offset="1" stop-color="#8E5A3E"/></linearGradient>
+  <linearGradient id="skinN" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#9A6244"/><stop offset="1" stop-color="#6E4129"/></linearGradient>
+  <linearGradient id="hair" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2B2F45"/><stop offset=".5" stop-color="#10121C"/><stop offset="1" stop-color="#05060A"/></linearGradient>
+  <linearGradient id="jacket" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2A2F47"/><stop offset=".45" stop-color="#141728"/><stop offset="1" stop-color="#07080E"/></linearGradient>
+  <linearGradient id="jacketSl" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#252A40"/><stop offset=".6" stop-color="#10131F"/><stop offset="1" stop-color="#07080E"/></linearGradient>
+  <linearGradient id="pants" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#232842"/><stop offset=".5" stop-color="#11131F"/><stop offset="1" stop-color="#06070C"/></linearGradient>
+  <linearGradient id="shoe" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2E3350"/><stop offset="1" stop-color="#0A0B12"/></linearGradient>
+  <linearGradient id="sole" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#B9C0D8"/></linearGradient>
+  <radialGradient id="cheek" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#F2C29C" stop-opacity=".75"/><stop offset="1" stop-color="#F2C29C" stop-opacity="0"/></radialGradient>
+  <radialGradient id="eyeW" cx="50%" cy="50%" r="60%"><stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#D9D3CC"/></radialGradient>
+  <filter id="glowB" x="-30%" y="-10%" width="160%" height="120%"><feGaussianBlur stdDeviation="3.2"/></filter>
+  <filter id="blur6"><feGaussianBlur stdDeviation="6"/></filter>
+  <filter id="clayShadow" x="-20%" y="-10%" width="140%" height="130%"><feDropShadow dx="0" dy="10" stdDeviation="9" flood-color="#000" flood-opacity=".45"/></filter>
+</defs>
+<g id="azfar">
+  <!-- floor contact shadow -->
+  <ellipse cx="305" cy="868" rx="190" ry="20" fill="#000" fill-opacity=".55" filter="url(#blur6)"/>
+
+  <!-- LEGS -->
+  <path d="M244,552 L306,552 L303,700 L298,846 L233,846 L231,700 Z" fill="url(#pants)"/>
+  <path d="M308,552 L376,552 L382,700 L376,846 L313,846 L310,700 Z" fill="url(#pants)"/>
+  <path d="M308,556 L306,846" stroke="#000" stroke-opacity=".6" stroke-width="3"/>
+  <path d="M236,690 Q268,702 300,690 M312,690 Q346,704 380,690" stroke="#000" stroke-opacity=".35" stroke-width="3" fill="none"/>
+  <path d="M232,790 Q266,800 300,790 M313,790 Q346,800 378,790" stroke="#4263FF" stroke-opacity=".55" stroke-width="2.5" fill="none"/>
+  <!-- cargo pocket -->
+  <path d="M243,620 L286,622 L284,672 L242,670 Z" fill="#fff" fill-opacity=".04" stroke="#4263FF" stroke-opacity=".35" stroke-width="1.5"/>
+  <!-- highlights (clay sheen) -->
+  <path d="M250,570 C246,640 244,720 246,830" stroke="#fff" stroke-opacity=".12" stroke-width="8" stroke-linecap="round" fill="none" filter="url(#glowB)"/>
+  <path d="M322,570 C322,650 326,740 324,830" stroke="#fff" stroke-opacity=".08" stroke-width="8" stroke-linecap="round" fill="none" filter="url(#glowB)"/>
+
+  <!-- SHOES -->
+  <path d="M222,842 C220,820 248,812 302,818 L306,864 C270,876 232,876 216,866 C212,856 214,848 222,842 Z" fill="url(#shoe)"/>
+  <path d="M214,862 C232,878 274,880 308,866 L308,876 C272,892 228,890 212,874 Z" fill="url(#sole)"/>
+  <path d="M312,818 C362,810 392,816 392,842 C402,846 404,856 398,864 C380,878 340,876 312,866 Z" fill="url(#shoe)"/>
+  <path d="M312,866 C344,878 384,880 400,866 L402,876 C386,892 340,892 312,878 Z" fill="url(#sole)"/>
+  <path d="M236,832 C256,826 284,826 300,832 M326,830 C348,824 372,826 388,834" stroke="#4263FF" stroke-opacity=".8" stroke-width="2.5" fill="none"/>
+
+  <!-- FAR ARM (viewer right), hand in pocket -->
+  <path d="M388,290 C414,304 426,348 424,410 C422,452 408,490 386,528 L350,520 C366,482 372,440 372,400 L372,300 Z" fill="url(#jacketSl)"/>
+  <path d="M352,520 L386,528 L392,556 L352,548 Z" fill="#0A0B12" stroke="#4263FF" stroke-opacity=".6" stroke-width="1.5"/>
+
+  <!-- TORSO / JACKET -->
+  <path d="M232,288 C236,266 258,254 276,251 L346,251 C364,255 384,268 390,288 L396,540 C396,558 382,568 366,570 L244,570 C228,568 222,556 224,540 Z" fill="url(#jacket)" filter="url(#clayShadow)"/>
+  <!-- paneling -->
+  <path d="M310,254 L306,570" stroke="#000" stroke-opacity=".7" stroke-width="3"/>
+  <path d="M308,254 L304,570" stroke="#fff" stroke-opacity=".12" stroke-width="1.2"/>
+  <path d="M248,342 C290,352 338,352 386,340" stroke="#4263FF" stroke-opacity=".85" stroke-width="2.5" fill="none"/>
+  <path d="M252,470 C290,478 338,478 390,468" stroke="#000" stroke-opacity=".5" stroke-width="3" fill="none"/>
+  <!-- chest pocket + strap -->
+  <path d="M338,372 L376,376 L374,418 L336,414 Z" fill="#fff" fill-opacity=".04" stroke="#8B5CF6" stroke-opacity=".7" stroke-width="1.6"/>
+  <rect x="262" y="372" width="26" height="9" rx="2" fill="#4263FF" fill-opacity=".9"/>
+  <path d="M264,372 L264,384 M278,372 L278,384" stroke="#08090D" stroke-opacity=".5" stroke-width="1"/>
+  <!-- hem + drawstrings -->
+  <path d="M226,548 C262,560 336,562 394,548" stroke="#000" stroke-opacity=".5" stroke-width="3" fill="none"/>
+  <path d="M286,540 L284,590 M334,540 L336,586" stroke="#F2F4FA" stroke-opacity=".7" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="284" cy="592" r="3" fill="#F2F4FA"/><circle cx="336" cy="588" r="3" fill="#F2F4FA"/>
+  <!-- cloth sheen -->
+  <path d="M250,300 C244,390 244,480 250,540" stroke="#fff" stroke-opacity=".14" stroke-width="10" stroke-linecap="round" fill="none" filter="url(#glowB)"/>
+  <path d="M258,268 C300,258 332,258 372,272" stroke="#fff" stroke-opacity=".16" stroke-width="5" stroke-linecap="round" fill="none" filter="url(#glowB)"/>
+
+  <!-- NEAR ARM (viewer left), relaxed -->
+  <path d="M232,290 C208,300 194,344 190,404 C188,446 190,490 196,528 L240,530 C240,478 242,420 248,362 L254,300 Z" fill="url(#jacketSl)"/>
+  <path d="M196,500 L242,504 L242,534 L197,530 Z" fill="#0A0B12" stroke="#4263FF" stroke-opacity=".8" stroke-width="1.8"/>
+  <path d="M206,320 C198,380 196,440 202,490" stroke="#fff" stroke-opacity=".14" stroke-width="7" stroke-linecap="round" fill="none" filter="url(#glowB)"/>
+  <!-- hand -->
+  <path d="M198,532 C190,562 192,596 206,610 C222,622 240,604 242,574 L242,534 Z" fill="url(#skin)"/>
+  <path d="M214,570 L214,604 M226,568 L228,608" stroke="#7A4A31" stroke-opacity=".55" stroke-width="2" stroke-linecap="round"/>
+  <ellipse cx="204" cy="560" rx="4" ry="16" fill="#fff" fill-opacity=".18"/>
+
+  <!-- NECK -->
+  <path d="M280,200 L280,252 C288,266 318,268 330,254 L334,200 Z" fill="url(#skin)"/>
+  <path d="M280,206 C300,236 322,236 334,214 L334,200 L280,200 Z" fill="#5E3722" fill-opacity=".55"/>
+  <!-- COLLAR (funnel neck) -->
+  <path d="M258,254 C262,232 292,236 302,248 C312,236 342,230 352,252 L360,282 L248,282 Z" fill="url(#jacket)"/>
+  <path d="M262,250 C282,262 328,262 350,250" stroke="#4263FF" stroke-opacity=".9" stroke-width="2.5" fill="none"/>
+  <path d="M276,248 C292,258 318,258 334,248" stroke="#000" stroke-opacity=".5" stroke-width="2.5" fill="none"/>
+
+  <!-- HEAD -->
+  <ellipse cx="253" cy="154" rx="9" ry="17" fill="url(#skin)"/>
+  <ellipse cx="253" cy="156" rx="4" ry="9" fill="#7C4A31" fill-opacity=".6"/>
+  <path d="M252,120 C250,92 272,70 304,70 C340,70 364,92 364,122 C365,150 362,176 350,196 C342,210 330,222 312,226 C294,230 276,220 266,204 C256,186 253,150 252,120 Z" fill="url(#skin)"/>
+  <!-- face shading: temple, cheekbone, jaw -->
+  <path d="M352,128 C364,150 358,186 342,208 C336,216 326,222 312,226 C332,214 346,190 346,160 Z" fill="#6E4129" fill-opacity=".45"/>
+  <path d="M266,204 C256,186 253,150 252,124 C262,150 266,184 282,208 Z" fill="#fff" fill-opacity=".12"/>
+  <ellipse cx="282" cy="170" rx="22" ry="14" fill="url(#cheek)"/>
+  <ellipse cx="338" cy="172" rx="14" ry="12" fill="url(#cheek)" fill-opacity=".6"/>
+  <!-- stubble shadow -->
+  <path d="M262,196 C274,226 318,236 346,200 C344,214 328,228 312,228 C288,230 270,216 262,196 Z" fill="#2B1A12" fill-opacity=".22"/>
+  <!-- brows -->
+  <path d="M268,121 Q282,113 298,120" stroke="#0D0A09" stroke-width="5" stroke-linecap="round" fill="none"/>
+  <path d="M322,120 Q338,112 352,121" stroke="#0D0A09" stroke-width="5" stroke-linecap="round" fill="none"/>
+  <!-- eyes -->
+  <path d="M270,134 Q283,125 297,134 Q283,142 270,134 Z" fill="url(#eyeW)"/>
+  <path d="M324,134 Q338,125 352,134 Q338,142 324,134 Z" fill="url(#eyeW)"/>
+  <circle cx="288" cy="134" r="5.6" fill="#2A170E"/><circle cx="343" cy="134" r="5.6" fill="#2A170E"/>
+  <circle cx="288" cy="134" r="2.4" fill="#050302"/>
+  <circle cx="286" cy="131.5" r="1.7" fill="#fff"/><circle cx="341" cy="131.5" r="1.7" fill="#fff"/>
+  <path d="M269,134 Q283,123 298,134" stroke="#0D0A09" stroke-width="2.6" fill="none" stroke-linecap="round"/>
+  <path d="M323,134 Q338,123 353,134" stroke="#0D0A09" stroke-width="2.6" fill="none" stroke-linecap="round"/>
+  <path d="M274,142 Q284,146 294,142 M328,142 Q338,146 348,142" stroke="#7A4A31" stroke-opacity=".55" stroke-width="1.6" fill="none"/>
+  <!-- nose -->
+  <path d="M313,138 C310,158 306,170 300,176 C306,182 322,182 328,176" stroke="#7A4A31" stroke-opacity=".7" stroke-width="2.4" fill="none" stroke-linecap="round"/>
+  <path d="M316,142 C318,156 320,166 322,172" stroke="#fff" stroke-opacity=".28" stroke-width="3" stroke-linecap="round" fill="none"/>
+  <ellipse cx="305" cy="179" rx="3" ry="1.8" fill="#4B2A19" fill-opacity=".6"/><ellipse cx="322" cy="179" rx="3" ry="1.8" fill="#4B2A19" fill-opacity=".6"/>
+  <!-- mouth (relaxed smirk) -->
+  <path d="M296,199 Q312,206 332,194" stroke="#5B2A22" stroke-width="3.2" stroke-linecap="round" fill="none"/>
+  <path d="M302,206 Q314,212 326,204" stroke="#E9A58B" stroke-opacity=".55" stroke-width="3" stroke-linecap="round" fill="none"/>
+  <path d="M332,194 Q336,192 338,189" stroke="#5B2A22" stroke-opacity=".7" stroke-width="1.8" stroke-linecap="round" fill="none"/>
+
+  <!-- HAIR (swept quiff + faded sides) -->
+  <path d="M246,128 C236,84 262,46 312,44 C362,42 388,78 374,128 C372,114 364,102 352,98 C338,92 324,96 306,94 C288,92 272,102 267,128 C262,140 254,142 246,128 Z" fill="url(#hair)"/>
+  <path d="M286,62 C298,26 348,22 372,56 C348,48 318,50 286,62 Z" fill="url(#hair)"/>
+  <path d="M300,56 C320,38 348,38 364,58" stroke="#8FA4FF" stroke-opacity=".55" stroke-width="3" stroke-linecap="round" fill="none"/>
+  <path d="M262,92 C270,70 292,56 312,54" stroke="#4263FF" stroke-opacity=".7" stroke-width="2.4" stroke-linecap="round" fill="none"/>
+  <path d="M292,76 C300,70 312,68 322,70 M312,88 C326,80 340,80 352,88" stroke="#fff" stroke-opacity=".14" stroke-width="2" stroke-linecap="round" fill="none"/>
+  <!-- earbud -->
+  <circle cx="253" cy="160" r="5.5" fill="#F2F4FA"/><circle cx="253" cy="160" r="2.2" fill="#4263FF"/>
+
+  <!-- RIM LIGHTS: cobalt left, ultraviolet right -->
+  <g fill="none" stroke-linecap="round">
+    <path d="M253,128 C252,154 257,184 270,206" stroke="#4263FF" stroke-width="2.6" opacity=".85"/>
+    <path d="M232,288 C226,380 222,470 226,548" stroke="#4263FF" stroke-width="3.5" opacity=".7" filter="url(#glowB)"/>
+    <path d="M190,404 C188,450 190,500 196,528" stroke="#4263FF" stroke-width="3" opacity=".7" filter="url(#glowB)"/>
+    <path d="M232,570 L231,846" stroke="#4263FF" stroke-width="3" opacity=".55" filter="url(#glowB)"/>
+    <path d="M364,122 C366,150 362,176 352,196" stroke="#8B5CF6" stroke-width="3" opacity=".9"/>
+    <path d="M390,288 C394,380 398,470 396,540" stroke="#8B5CF6" stroke-width="3.5" opacity=".8" filter="url(#glowB)"/>
+    <path d="M424,410 C422,452 408,490 390,524" stroke="#8B5CF6" stroke-width="3" opacity=".7" filter="url(#glowB)"/>
+    <path d="M382,570 L376,846" stroke="#8B5CF6" stroke-width="3" opacity=".6" filter="url(#glowB)"/>
+  </g>
+</g>
+
+</svg>
